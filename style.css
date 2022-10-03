@@ -84,15 +84,6 @@ body {
 	width: 80%;
 }
 
-#timer {
-	position: absolute;
-	bottom: 10%;
-	right: 7.5%;
-	background-color: wheat;
-	padding: 1%;
-	font-size: 25px;
-}
-
 .topic {
 	background-color: #8ae36c;
 	display: inline-block;
@@ -111,15 +102,8 @@ body {
 	font-size: 25px;
 }
 
-#start:hover{
-	cursor: pointer;
-}
-
-#start{
-	font-size: 70px;
-	color: rgb(23, 176, 23);
-	background-color: rgb(23, 12, 234);
-	position: fixed;
-	bottom: 5%;
-	left: 47.5%;
+#glass-over-slide{
+	width: 100%;
+	height: 100%;
+	z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
 }
